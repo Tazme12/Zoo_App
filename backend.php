@@ -30,6 +30,6 @@
  
  $password = $_POST["password"];
 
-  $has = password_hash($password,PASSWORD_DEFAULT);
+  $hash = password_hash($password,PASSWORD_DEFAULT);
 
 ?>
