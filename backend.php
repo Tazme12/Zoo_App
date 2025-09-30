@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
 </head>
 <body>
-    <form action= "index.php" method="post">
-        <label> Enter Email:</label><br>
+    <form action="backend.php" method="post">
+        <label>Enter Email:</label><br>
         <input type="text" name="email"><br>
-        <label>Create username:</label><br>
+        <label>Create Username:</label><br>
         <input type="text" name="username"><br>
-        <label> Create Password:</label><br>
-        <input type="password"  name ="password"><br>
-        <input type="submit" value= "Register">
-
-
+        <label>Create Password:</label><br>
+        <input type="password" name="password"><br>
+        <input type="submit" value="Register">
     </form>
-    
 </body>
 </html>
 
-<?php 
- include("database.php");
- echo "{$POST["email"]} <br>";
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include("database.php");
 
- echo "{$_POST["username"]} <br>";
- 
- $password = $_POST["password"];
+    $email = $_POST["email"];
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
-  $has = password_hash($password,PASSWORD_DEFAULT);
-
+    echo "Email: $email <br>";
+    echo "Username: $username <br>";
+}
 ?>
