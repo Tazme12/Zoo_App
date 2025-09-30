@@ -1,5 +1,3 @@
-
-
 <?php 
  include("database.php");
  echo "{$POST["email"]} <br>";
@@ -8,6 +6,6 @@
  
  $password = $_POST["password"];
 
-  $has = password_hash($password,PASSWORD_DEFAULT);
+ $hash = password_hash($password,PASSWORD_DEFAULT);
 
 ?>
