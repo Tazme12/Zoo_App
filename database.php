@@ -14,7 +14,7 @@ $conn = mysqli_connect($db_server,
         echo "Server Connection : You are connected.";
     }
     else{
-        echo "Server Connection : Could not connect :C";
+        echo "Server Connection : Could not connect.";
     }
 
 ?>
