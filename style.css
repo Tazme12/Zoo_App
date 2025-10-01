@@ -6,6 +6,10 @@ label{
 }
 
 form{
+    border-style: outset;
+    border-width: 5px;
+    border-color: #8BB174;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
