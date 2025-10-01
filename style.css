@@ -1,6 +1,37 @@
-body{
-    background-color: black;
+label{
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'proxima-soft', sans-serif;
+    font-weight: 600;
 }
+
+form{
+    display: grid;
+    gap: 0.1rem;
+}
+
+
+
+body{
+    background-color: #242424;
+    
+}
+
+label{
+    color: snow;
+}
+
 input{
     border: 1px solid tan;
+    font-size: medium;
+    border: var(--border);
+    width: 300px;
+    text-align: center;
+    border-radius: 24px;
+    padding: 1ex 1ex;
+}
+
+#input5{
+    
+    width: 100px;
 }
