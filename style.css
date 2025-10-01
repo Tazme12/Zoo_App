@@ -5,21 +5,22 @@ label{
     font-weight: 600;
 }
 
-form{
+.box{    
     border-style: outset;
-    border-width: 5px;
+    border-width: 10px;
     border-color: #8BB174;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1px;
+    background-color: #242424;
+    
+
 }
 
-
-
 body{
-    background-color: #242424;
+    background-color: tan;
     
 }
 
@@ -44,5 +45,5 @@ input{
 #input5{
     width: 100px;
     text-align: center;
-    
+
 }
