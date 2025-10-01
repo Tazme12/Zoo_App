@@ -14,7 +14,7 @@ label{
     flex-direction: column;
     align-items: center;
     gap: 1px;
-    background-color: rgba(36, 36, 36, 0.3);
+    background-color: rgba(36, 36, 36, 0.6);
     width: 450px;
     box-shadow: 10px 10px 5px #426B51;
     justify-content: center;
