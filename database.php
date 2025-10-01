@@ -10,11 +10,12 @@ $conn = mysqli_connect($db_server,
                         $db_user,
                         $db_pass,
                         $db_name);
-    if ($conn){
+                     
+   /*if ($conn){
         echo "Server Connection : You are connected.";
     }
     else{
         echo "Server Connection : Could not connect :C";
-    }
+    } */
 
 ?>
