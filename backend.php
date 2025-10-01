@@ -1,11 +1,11 @@
-<?php 
- include("database.php");
- echo "{$POST["email"]} <br>";
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include("database.php");
 
- echo "{$_POST["username"]} <br>";
- 
- $password = $_POST["password"];
+    $email = $_POST["email"];
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
- $hash = password_hash($password,PASSWORD_DEFAULT);
-
+  $hash = password_hash($password,PASSWORD_DEFAULT);
+}
 ?>
