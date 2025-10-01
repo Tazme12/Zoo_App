@@ -1,6 +1,6 @@
 <?php 
  include("database.php");
- 
+
  echo "{$POST["email"]} <br>";
 
  echo "{$_POST["username"]} <br>";
