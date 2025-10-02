@@ -5,21 +5,36 @@ label{
     font-weight: 600;
 }
 
-form{
-    border-style: outset;
-    border-width: 5px;
+.box{    
+    border-style: solid;
+    border-width: 10px;
     border-color: #8BB174;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1px;
+    background-color: rgba(36, 36, 36, 0.6);
+    width: 450px;
+    box-shadow: 10px 10px 5px #426B51;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
 }
 
-
-
 body{
-    background-color: #242424;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(giraffe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -44,5 +59,5 @@ input{
 #input5{
     width: 100px;
     text-align: center;
-    
+
 }
