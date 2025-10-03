@@ -1,12 +1,5 @@
 <?php
-    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
-    $firstname = filter_input(INPUT_POST, 'firstname', FILTER_SANITIZE_SPECIAL_CHARS);
-    $pass = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
-    $conf_pass = filter_input(INPUT_POST, 'confirm password', FILTER_SANITIZE_SPECIAL_CHARS);
-    if ($conf_pass != $pass) {
-        echo ("Passwords are not the same");
-    };
-
+    
 ?>
 
 

@@ -7,7 +7,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="../frontend/style.css">
-    <form action= "database.php" method="post">
+    <form action= "index.php" method="post">
     <div class="box">
         <br>
         <label> Enter Email:</label><br>
@@ -28,16 +28,24 @@
 
 
 <?php 
- include("database.php");
+    include("database.php");
 
- echo "{$POST["email"]} <br>";
+    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
+    $firstname = filter_input(INPUT_POST, 'firstname', FILTER_SANITIZE_SPECIAL_CHARS);
+    $pass = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_SPECIAL_CHARS);
+    $conf_pass = filter_input(INPUT_POST, 'confirm password', FILTER_SANITIZE_SPECIAL_CHARS);
 
- echo "{$_POST["username"]} <br>";
- 
- $password = $_POST["password"];
+    echo "{$POST["email"]} <br>";
 
- $hash = password_hash($password,PASSWORD_DEFAULT);
+    echo "{$_POST["username"]} <br>";
+    
+    $password = $_POST["password"];
 
+    $hash = password_hash($password,PASSWORD_DEFAULT);
+    
+    if ($conf_pass != $pass) {
+        echo ("Passwords are not the same");
+    };
 
 
 ?>
