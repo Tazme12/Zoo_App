@@ -7,7 +7,7 @@
 </head>
 <body>
     <link rel="stylesheet" href="../frontend/style.css">
-    <form action= "backend.php" method="post">
+    <form action= "database.php" method="post">
     <div class="box">
         <br>
         <label> Enter Email:</label><br>
@@ -28,7 +28,7 @@
 
 
 <?php 
-/* include("database.php");
+ include("database.php");
 
  echo "{$POST["email"]} <br>";
 
@@ -39,5 +39,5 @@
  $hash = password_hash($password,PASSWORD_DEFAULT);
 
 
-*/
+
 ?>
