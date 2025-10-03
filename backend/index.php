@@ -6,7 +6,7 @@
     <title>Riget Zoo Adventures - Register Page</title>
 </head>
 <body>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../frontend/style.css">
     <form action= "backend.php" method="post">
     <div class="box">
         <br>
@@ -16,7 +16,7 @@
         <input type="text" name="username"><br>
         <label> Create Password:</label><br>
         <input type="password"  name ="password"><br>
-        <label> Confirm Password:</label><br>
+        <label id="label5"> Confirm Password:</label><br>
         <input type="password"  name ="password"><br>
         <input id="input5" type="submit" value= "Register"><br>
 
@@ -25,3 +25,19 @@
     
 </body>
 </html>
+
+
+<?php 
+/* include("database.php");
+
+ echo "{$POST["email"]} <br>";
+
+ echo "{$_POST["username"]} <br>";
+ 
+ $password = $_POST["password"];
+
+ $hash = password_hash($password,PASSWORD_DEFAULT);
+
+
+*/
+?>
