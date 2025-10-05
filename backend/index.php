@@ -47,5 +47,4 @@
         echo ("Passwords are not the same");
     };
 
-
 ?>
