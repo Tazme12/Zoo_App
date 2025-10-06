@@ -14,7 +14,7 @@
         <input type="text" name="email"><br>
         <label> Enter Password:</label><br>
         <input type="password"  name ="password"><br>
-        <input id="input5" type="submit" value= "Sign In"><br>
+        <button id="register-button" type="submit">Sign In<br>
 
     </div>
     </form>
