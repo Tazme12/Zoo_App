@@ -18,7 +18,7 @@
         <input required type="password"  name ="password"><br>
         <label id="label5"> Confirm Password:</label><br>
         <input required type="password"  name ="password"><br>
-
+        <p>Already have an account? <a href="signin.php">Sign In</a><br>
         <input id="input5" type="submit" value= "Register"><br>
 
     </div>
