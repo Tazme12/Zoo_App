@@ -6,12 +6,19 @@ label{
 }
 
 #account{
-    color: var(--text-colour);
+    display: block;
+    color: snow;
     text-transform: uppercase;
-    font-size: medium;
+    font-size: small;
     font-family: 'proxima-soft', sans-serif;
     font-weight: 600;
     text-align: center;
+    margin-top: 15px;
+}
+
+#account a{
+    color: snow;
+    text-decoration: underline;
 }
 
 .box{    
@@ -62,7 +69,8 @@ input{
     padding: 1ex 1ex;
 }
 
-#input5{
+#register-button{
     width: 100px;
     text-align: center;
+    cursor: pointer;
 }
