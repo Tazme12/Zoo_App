@@ -5,12 +5,13 @@ label{
     font-weight: 600;
 }
 
-p{
-    color: white;
+#account{
+    color: var(--text-colour);
     text-transform: uppercase;
     font-size: medium;
     font-family: 'proxima-soft', sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 .box{    
