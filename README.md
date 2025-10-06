@@ -4,6 +4,6 @@
 
 # Code Explained
 
-## _register.php_
+## <u>register.php</u>
 
 #### The register.php file lets users enter their email, username, and password, then checks if the passwords match. It sanitizes inputs, hashes the password, and has small errors like duplicate field names and syntax issues.
