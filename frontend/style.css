@@ -20,7 +20,6 @@ label{
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
-
 }
 
 body{
@@ -35,7 +34,6 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    
 }
 
 label{
@@ -53,11 +51,9 @@ input{
     text-align: left;
     border-radius: 24px;
     padding: 1ex 1ex;
-
 }
 
 #input5{
     width: 100px;
     text-align: center;
-
 }
