@@ -6,7 +6,7 @@
     <title>Riget Zoo Adventures - Sign-in Page</title>
 </head>
 <body>
-    <link rel="stylesheet" href="../frontend/style.css">
+    <link rel="stylesheet" href="../frontend/signin.css">
     <form action= "index.php" method="post">
     <div class="box">
         <br>

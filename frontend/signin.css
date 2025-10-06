@@ -5,15 +5,6 @@ label{
     font-weight: 600;
 }
 
-#account{
-    color: var(--text-colour);
-    text-transform: uppercase;
-    font-size: medium;
-    font-family: 'proxima-soft', sans-serif;
-    font-weight: 600;
-    text-align: center;
-}
-
 .box{    
     border-style: solid;
     border-width: 10px;
@@ -38,7 +29,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(../assets/giraffe.jpg);
+    background-image: url(../assets/tiger-resting.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
