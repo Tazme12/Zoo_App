@@ -18,5 +18,9 @@
         </ul>
     </nav>
 
+    <main>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vel dolore nostrum perspiciatis! Quibusdam eaque fuga, blanditiis possimus inventore, veniam magni beatae eum veritatis eos, voluptate repellendus? Laudantium, placeat at.</h3>
+    </main>
+
 </body>
 </html>
