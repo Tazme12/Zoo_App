@@ -19,7 +19,7 @@
         <label id="label5"> Confirm Password:</label><br>
         <input required type="password"  name ="password"><br>
         <p id=account>Already have an account? <a href="signin.php">Sign In</a><br>
-        <button id="input5" type="submit">Register<br>
+        <button id="input5" type="submit">Register</button><br>
 
     </div>
     </form>
