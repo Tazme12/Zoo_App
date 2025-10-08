@@ -1,3 +1,12 @@
-body{
+body.home{
     background-color: snow;
+    background-image: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
 }

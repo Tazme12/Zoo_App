@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riget Zoo Adventures - Register Page</title>
 </head>
-<body>
-    <link rel="stylesheet" href="../frontend/style.css">
+<body class="reg">
+    <link rel="stylesheet" href="../frontend/register.css">
     <form action= "backend.php" method="post">
     <div class="box">
         <br>

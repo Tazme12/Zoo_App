@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riget Zoo Adventures</title>    
 </head>
-<body>
+<body class="home">
     <link rel="stylesheet" href="../frontend/style.css">
     
     <h1>Riget Zoo Adventures</h1>
@@ -17,6 +17,10 @@
             <li><a href="">About</a></li>
         </ul>
     </nav>
+
+    <main>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vel dolore nostrum perspiciatis! Quibusdam eaque fuga, blanditiis possimus inventore, veniam magni beatae eum veritatis eos, voluptate repellendus? Laudantium, placeat at.</h3>
+    </main>
 
 </body>
 </html>
