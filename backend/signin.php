@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riget Zoo Adventures - Sign-in Page</title>
+    <link rel="stylesheet" href="../frontend/signin.css">
 </head>
 <body>
-    <link rel="stylesheet" href="../frontend/signin.css">
     <form action= "index.php" method="post">
     <div class="box">
         <br>
