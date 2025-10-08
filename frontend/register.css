@@ -38,7 +38,7 @@ label{
     backdrop-filter: blur(10px);
 }
 
-body{
+body.reg{
     background-color: tan;
     display: flex;
     justify-content: center;

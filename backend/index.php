@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riget Zoo Adventures</title>    
 </head>
-<body>
+<body class="home">
     <link rel="stylesheet" href="../frontend/style.css">
     
     <h1>Riget Zoo Adventures</h1>
