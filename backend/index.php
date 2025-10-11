@@ -11,9 +11,9 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="register.php">Register</a></li>
-            <li><a href="">About</a></li>
+            <li class="rainbow-anim"><a href="index.php">Home</a></li>
+            <li class="rainbow-anim"><a href="register.php">Register</a></li>
+            <li class="rainbow-anim"><a href="">About</a></li>
         </ul>
     </nav>
 
