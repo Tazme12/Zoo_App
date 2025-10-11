@@ -1,8 +1,3 @@
-body.home{
-    background-color: snow;
-    background-image: none;
-}
-
 h1{
     text-align: center;
 }
@@ -12,4 +7,21 @@ h1{
     background-color: tan;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.navbar a{
+    color: snow;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: #242424;
+}
+
+.navbar li{
+    float: right;
 }
