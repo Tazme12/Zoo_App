@@ -18,10 +18,24 @@ h1{
     display: block;
 }
 
-.navbar a:hover{
-    background-color: #242424;
-}
-
 .navbar li{
     float: right;
+}
+
+.rainbow-anim:hover{
+    font-weight: bold;
+    background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s linear infinite alternate;
+}
+
+@keyframes rainbow{
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
