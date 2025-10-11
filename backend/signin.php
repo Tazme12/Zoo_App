@@ -11,9 +11,9 @@
     <div class="box">
         <br>
         <label> Enter Email:</label><br>
-        <input type="text" name="email"><br>
+        <input required type="text" name="email"><br>
         <label> Enter Password:</label><br>
-        <input type="password"  name ="password"><br>
+        <input required type="password"  name ="password"><br>
         <button id="register-button" type="submit">Sign In<br>
 
     </div>
