@@ -11,6 +11,7 @@
 
     <nav class="navbar">
         <ul>
+            <img src="../assets/logo.png">
             <li class="rainbow-anim"><a href="index.php">Home</a></li>
             <li class="rainbow-anim"><a href="register.php">Register</a></li>
             <li class="rainbow-anim"><a href="">About</a></li>

@@ -30,6 +30,7 @@ body{
     height: 100vh;
     margin: 0;
     background-image: url(../assets/tiger-resting.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
