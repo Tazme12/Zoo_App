@@ -11,6 +11,13 @@ h1{
     border-radius: 15px;
 }
 
+.navbar img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
 .navbar a{
     color: snow;
     text-decoration: none;
